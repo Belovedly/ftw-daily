@@ -85,10 +85,10 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'smoke', label: 'Smoke' },
-        { key: 'electric', label: 'Electric' },
-        { key: 'wood', label: 'Wood' },
-        { key: 'other', label: 'Other' },
+        { key: 'morning', label: 'Morning' },
+        { key: 'afternoon', label: 'Afternoon' },
+        { key: 'evening', label: 'Evening' },
+        { key: 'full_day', label: 'Full day' },
       ],
     },
   },
@@ -109,36 +109,36 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'towels',
-          label: 'Towels',
+          key: 'breakfast',
+          label: 'Breakfast',
         },
         {
-          key: 'bathroom',
-          label: 'Bathroom',
+          key: 'lunch',
+          label: 'Lunch',
         },
         {
-          key: 'swimming_pool',
-          label: 'Swimming pool',
+          key: 'dinner',
+          label: 'Dinner',
         },
         {
-          key: 'own_drinks',
-          label: 'Own drinks allowed',
-        },
-        {
-          key: 'jacuzzi',
-          label: 'Jacuzzi',
-        },
-        {
-          key: 'audiovisual_entertainment',
-          label: 'Audiovisual entertainment',
-        },
-        {
-          key: 'barbeque',
-          label: 'Barbeque',
+          key: 'snacks',
+          label: 'Snacks',
         },
         {
           key: 'own_food_allowed',
           label: 'Own food allowed',
+        },
+        {
+          key: 'backyard',
+          label: 'Backyard',
+        },
+        {
+          key: 'nearby_playground',
+          label: 'Nearby playground',
+        },
+        {
+          key: 'pet_at_home',
+          label: 'Pet at home',
         },
       ],
     },
