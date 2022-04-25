@@ -125,12 +125,12 @@ export const filters = [
           label: 'Snacks',
         },
         {
-          key: 'nursery_playroom',
-          label: 'Nursery playroom',
+          key: 'playroom',
+          label: 'Playroom',
         },
         {
-          key: 'fenced_backyard',
-          label: 'Fenced backyard',
+          key: 'backyard',
+          label: 'Backyard',
         },
         {
           key: 'nearby_playground',
