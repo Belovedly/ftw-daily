@@ -15,11 +15,15 @@ const TermsOfService = props => {
 
       <p>
         Hey hey 👋
+      </p>
 
+      <p>
         These are our Terms of Use which detail the agreement between you and Beloved for
         using the Beloved services.If you have any questions, please reach out to us on 
         support@joinbeloved.com.
+      </p>
 
+      <p>
         The use of this website and services on this website provided by Belovedly, Inc.
         (hereinafter referred to as "Company") are subject to the following Terms of Use 
         (hereinafter the "Agreement"), all parts and sub-parts of which are specifically
