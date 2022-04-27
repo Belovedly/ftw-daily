@@ -63,7 +63,7 @@ exports.transactionLineItems = (listing, bookingData) => {
     includeFor: ['customer'],
   };
 
-  const lineItems = [booking, providerCommission];
+  const lineItems = [booking, providerCommission, customerCommission];
 
   return lineItems;
 };
