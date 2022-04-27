@@ -35,16 +35,22 @@ const TermsOfService = props => {
       <h2>1. Definitions</h2>
       <p>
         The parties referred to in this Agreement shall be defined as follows:
+      </p>
 
+      <p>
         a) Company, Us, We: The Company, as the creator, operator, and publisher of the 
         Website, makes the Website, and certain Services on it, available to users. 
         Belovedly, Inc., Company, Us, We, Our, Ours and other first-person pronouns will
         refer to the Company, as well as all employees and affiliates of the Company.
+      </p>
 
+      <p>
         b) You, the User, the Client: You, as the user of the Website, will be referred 
         to throughout this Agreement with second-person pronouns such as You, Your, Yours, 
         or as User or Client.
+      </p>
 
+      <p>
         c) Parties: Collectively, the parties to this Agreement (the Company and You) will 
         be referred to as Parties.
       </p>
