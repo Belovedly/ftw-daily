@@ -4,7 +4,7 @@ const { Money } = types;
 
 // This bookingUnitType needs to be one of the following:
 // line-item/night, line-item/day or line-item/units
-const bookingUnitType = 'line-item/day';
+const bookingUnitType = 'line-item/unts';
 const PROVIDER_COMMISSION_PERCENTAGE = -12; // Provider commission is negative
 const CUSTOMER_COMMISSION_PERCENTAGE = 10; // Customer commission is positive
 
