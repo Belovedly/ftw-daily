@@ -60,7 +60,7 @@
 
 /* An image wrapper that defines the images aspect ratio */
 .aspectWrapper {
-  padding-bottom: calc(10 / 16 * 100%); /* changed from 13:6 Aspect Ratio */
+  padding-bottom: calc(2 / 3 * 100%); /* changed from 13:6 Aspect Ratio */
 
   @media (--viewportMedium) {
     padding-bottom: calc(2 / 3 * 100%); /* 3:2 Aspect Ratio */
