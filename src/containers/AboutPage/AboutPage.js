@@ -12,7 +12,7 @@ import {
 } from '../../components';
 
 import css from './AboutPage.module.css';
-import image from './about-us-1056.jpg';
+import image from './beloved-about-01.png';
 
 const AboutPage = () => {
   const { siteTwitterHandle, siteFacebookPage } = config;
@@ -25,7 +25,7 @@ const AboutPage = () => {
       schema={{
         '@context': 'http://schema.org',
         '@type': 'AboutPage',
-        description: 'About Saunatime',
+        description: 'About Beloved',
         name: 'About page',
       }}
     >
@@ -35,8 +35,8 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
 
         <LayoutWrapperMain className={css.staticPageWrapper}>
-          <h1 className={css.pageTitle}>Experience the unique Finnish home sauna.</h1>
-          <img className={css.coverImage} src={image} alt="My first ice cream." />
+          <h1 className={css.pageTitle}>Experience the unique Beloved family support.</h1>
+          <img className={css.coverImage} src={image} alt="Grow altogether" />
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
@@ -68,19 +68,9 @@ const AboutPage = () => {
                 is often a more fulfilling one.
               </p>
 
-              <h3 id="contact" className={css.subtitle}>
-                Create your own marketplace like Saunatime
-              </h3>
-              <p>
-                Saunatime is brought to you by the good folks at{' '}
-                <ExternalLink href="http://sharetribe.com">Sharetribe</ExternalLink>. Would you like
-                to create your own marketplace platform a bit like Saunatime? Or perhaps a mobile
-                app? With Sharetribe it's really easy. If you have a marketplace idea in mind, do
-                get in touch!
-              </p>
               <p>
                 You can also checkout our{' '}
-                <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
+                <ExternalLink href={siteInstagramPage}>Instagram</ExternalLink> and{' '}
                 <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
               </p>
             </div>
