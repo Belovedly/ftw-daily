@@ -4,6 +4,7 @@ import { FormattedMessage, intlShape } from '../../util/reactIntl';
 import classNames from 'classnames';
 import { ACCOUNT_SETTINGS_PAGES } from '../../routeConfiguration';
 import { propTypes } from '../../util/types';
+import config from '../../config';
 import {
   Avatar,
   InlineTextButton,
@@ -12,11 +13,17 @@ import {
   MenuLabel,
   MenuContent,
   MenuItem,
+  ExternalLink,
   NamedLink,
 } from '../../components';
 import { TopbarSearchForm } from '../../forms';
 
 import css from './TopbarDesktop.module.css';
+
+const renderExternalLinks = intl => {
+  const { siteBelovedPage } = config;
+  const becomeAHost = intl.formatMessage({ id: 'TopbarDesktop.becomeAHost' }
+);
 
 const TopbarDesktop = props => {
   const {
@@ -132,6 +139,13 @@ const TopbarDesktop = props => {
     </NamedLink>
   );
 
+  const becomeAHostLink = siteBelovedPage ? (
+    <ExternalLink key="linkToBeloved" href={siteBelovedPage} className={css.becomeAHostLink} title={becomeAHost}>
+      <span className={css.becomeAHostLink}>
+      </span>
+    </ExternalLink>
+  ) : null;
+
   return (
     <nav className={classes}>
       <NamedLink className={css.logoLink} name="LandingPage">
@@ -151,6 +165,7 @@ const TopbarDesktop = props => {
       {profileMenu}
       {signupLink}
       {loginLink}
+      {becomeAHostLink}
     </nav>
   );
 };
