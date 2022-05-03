@@ -22,6 +22,7 @@ import css from './TopbarDesktop.module.css';
 
 const renderExternalLinks = intl => {
   const { siteBelovedPage } = config;
+
   const becomeAHost = intl.formatMessage({ id: 'TopbarDesktop.becomeAHost' }
 );
 
@@ -161,6 +162,10 @@ const TopbarDesktop = props => {
           <FormattedMessage id="TopbarDesktop.createListing" />
         </span>
       </NamedLink>
+      <ExternalLink key="linkToBeloved" href={siteBelovedPage} className={css.becomeAHostLink} title={becomeAHost}>
+        <span className={css.becomeAHostLink}>
+        </span>
+      </ExternalLink>
       {inboxLink}
       {profileMenu}
       {signupLink}
