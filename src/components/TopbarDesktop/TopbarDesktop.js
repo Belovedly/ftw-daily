@@ -4,6 +4,7 @@ import { FormattedMessage, intlShape } from '../../util/reactIntl';
 import classNames from 'classnames';
 import { ACCOUNT_SETTINGS_PAGES } from '../../routeConfiguration';
 import { propTypes } from '../../util/types';
+import config from '../../config'; // ADDED
 import {
   Avatar,
   InlineTextButton,
@@ -17,6 +18,8 @@ import {
 import { TopbarSearchForm } from '../../forms';
 
 import css from './TopbarDesktop.module.css';
+
+const { siteBelovedPage } = config; // ADDED
 
 const TopbarDesktop = props => {
   const {
@@ -65,6 +68,19 @@ const TopbarDesktop = props => {
         {notificationDot}
       </span>
     </NamedLink>
+  ) : null;
+
+  const becomeAHostLink = siteBelovedPage ? ( // <--- ADDED ENTIRE BLOCK
+    <ExternalLink 
+			key="linkToBeloved" 
+			href={siteMyDomainPage} 
+			className={css.becomeAHostLink} 
+			title={becomeAHost}
+		>
+      <span className={css.becomeAHost}>
+      <FormattedMessage id="TopbarDesktop.becomeAHost" />
+      </span>
+    </ExternalLink>
   ) : null;
 
   const currentPageClass = page => {
@@ -150,6 +166,7 @@ const TopbarDesktop = props => {
       {inboxLink}
       {profileMenu}
       {signupLink}
+      {becomeAHostLink}
       {loginLink}
     </nav>
   );
