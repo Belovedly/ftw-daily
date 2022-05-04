@@ -105,7 +105,7 @@ const siteInstagramPage = 'https://www.instagram.com/joinbeloved/';
 const siteFacebookPage = null;
 
 // MyDomain landing page is used to present the value proposition of becoming a host
-const siteBelovedPage = 'https://www.mydomain.com/';
+const siteBelovedPage = 'https://www.joinbeloved.com/';
 
 // Social logins & SSO
 
