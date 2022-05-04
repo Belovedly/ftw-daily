@@ -31,7 +31,7 @@ exports[`LandingPage matches snapshot 1`] = `
     Array [
       Object {
         "height": 314,
-        "url": "http://localhost:3000saunatimeTwitter-600x314.jpg",
+        "url": "http://localhost:3000belovedTwitter-600x314.jpg",
         "width": 600,
       },
     ]

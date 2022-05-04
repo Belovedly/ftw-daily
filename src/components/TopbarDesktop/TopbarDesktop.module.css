@@ -85,28 +85,6 @@
   flex-shrink: 0;
   height: 100%;
   padding: 0 12px 0 12px;
-  color: var(--matterColor);
-  margin-top: 0;
-  margin-bottom: 0;
-
-  &:hover {
-    color: var(--matterColorDark);
-  }
-
-  @media (--viewportMedium) {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-
-/* Become a host (CTA for providers) */
-.becomeAHostLink {
-  @apply --TopbarDesktop_linkHover;
-  @apply --marketplaceH5FontStyles;
-
-  flex-shrink: 0;
-  height: 100%;
-  padding: 0 12px 0 12px;
   color: var(--marketplaceColor);
   margin-top: 0;
   margin-bottom: 0;
