@@ -7,8 +7,9 @@ export const isMobileSafari = () => {
   const ua = window.navigator.userAgent;
   const iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
   const webkit = !!ua.match(/WebKit/i);
+  const iOSSafari = !ua.match(/CriOS/i);
 
   // If iOS Chrome needs to be separated, use `!ua.match(/CriOS/i)` as
   // an extra condition.
-  return iOS && webkit;
+  return iOS && webkit && iOSSafari;
 };
