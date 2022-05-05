@@ -75,7 +75,6 @@ const TopbarDesktop = props => {
 			key="linkToBeloved" 
 			href={siteMyDomainPage} 
 			className={css.becomeAHostLink} 
-			title={becomeAHost}
 		>
       <span className={css.becomeAHost}>
       <FormattedMessage id="TopbarDesktop.becomeAHost" />
