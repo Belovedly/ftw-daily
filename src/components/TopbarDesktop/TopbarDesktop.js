@@ -158,6 +158,7 @@ const TopbarDesktop = props => {
         />
       </NamedLink>
       {search}
+      {becomeAHostLink}
       <NamedLink className={css.createListingLink} name="NewListingPage">
         <span className={css.createListing}>
           <FormattedMessage id="TopbarDesktop.createListing" />
@@ -165,8 +166,6 @@ const TopbarDesktop = props => {
       </NamedLink>
       {inboxLink}
       {profileMenu}
-      {signupLink}
-      {becomeAHostLink}
       {loginLink}
     </nav>
   );
