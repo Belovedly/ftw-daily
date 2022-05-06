@@ -13,6 +13,7 @@ import {
   MenuLabel,
   MenuContent,
   MenuItem,
+  ExternalLink,
   NamedLink,
 } from '../../components';
 import { TopbarSearchForm } from '../../forms';
