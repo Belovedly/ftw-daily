@@ -74,7 +74,7 @@ const TopbarDesktop = props => {
   const becomeAHostLink = siteBelovedPage ? ( // <--- ADDED ENTIRE BLOCK
     <ExternalLink 
 			key="linkToBeloved" 
-			href={siteMyDomainPage} 
+			href={siteBelovedPage} 
 			className={css.becomeAHostLink} 
 		>
       <span className={css.becomeAHost}>
