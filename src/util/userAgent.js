@@ -4,7 +4,7 @@ export const isMobileSafari = () => {
   }
 
   // https://stackoverflow.com/a/29696509
-  const ua = window.navigator.userAgentData;
+  const ua = window.navigator.userAgent;
   const iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
   const webkit = !!ua.match(/WebKit/i);
   const iOSSafari = !ua.match(/CriOS/i);
