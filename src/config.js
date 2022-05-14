@@ -104,9 +104,6 @@ const siteInstagramPage = 'https://www.instagram.com/joinbeloved/';
 // Facebook page is used in SEO schema (http://schema.org/Organization)
 const siteFacebookPage = null;
 
-// MyDomain landing page is used to present the value proposition of becoming a host
-const siteBelovedPage = 'https://www.joinbeloved.com/';
-
 // Social logins & SSO
 
 // Note: Facebook app id is also used for tracking:
@@ -228,7 +225,6 @@ const config = {
   siteFacebookPage,
   siteInstagramPage,
   siteTwitterHandle,
-  siteBelovedPage,
   facebookAppId,
   sentryDsn,
   usingSSL,

@@ -4,7 +4,6 @@ import { FormattedMessage, intlShape } from '../../util/reactIntl';
 import classNames from 'classnames';
 import { ACCOUNT_SETTINGS_PAGES } from '../../routeConfiguration';
 import { propTypes } from '../../util/types';
-import config from '../../config'; // ADDED
 import {
   Avatar,
   InlineTextButton,
@@ -13,14 +12,11 @@ import {
   MenuLabel,
   MenuContent,
   MenuItem,
-  ExternalLink,
   NamedLink,
 } from '../../components';
 import { TopbarSearchForm } from '../../forms';
 
 import css from './TopbarDesktop.module.css';
-
-const { siteBelovedPage } = config; // ADDED
 
 const TopbarDesktop = props => {
   const {
@@ -69,18 +65,6 @@ const TopbarDesktop = props => {
         {notificationDot}
       </span>
     </NamedLink>
-  ) : null;
-
-  const becomeAHostLink = siteBelovedPage ? ( // <--- ADDED ENTIRE BLOCK
-    <ExternalLink 
-			key="linkToBeloved" 
-			href={siteBelovedPage} 
-			className={css.becomeAHostLink} 
-		>
-      <span className={css.becomeAHost}>
-      <FormattedMessage id="TopbarDesktop.becomeAHost" />
-      </span>
-    </ExternalLink>
   ) : null;
 
   const currentPageClass = page => {
@@ -158,7 +142,6 @@ const TopbarDesktop = props => {
         />
       </NamedLink>
       {search}
-      {becomeAHostLink}
       <NamedLink className={css.createListingLink} name="NewListingPage">
         <span className={css.createListing}>
           <FormattedMessage id="TopbarDesktop.createListing" />
@@ -166,6 +149,7 @@ const TopbarDesktop = props => {
       </NamedLink>
       {inboxLink}
       {profileMenu}
+      {signupLink}
       {loginLink}
     </nav>
   );
