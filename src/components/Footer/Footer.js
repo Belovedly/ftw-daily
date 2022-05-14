@@ -15,20 +15,6 @@ import {
 
 import css from './Footer.module.css';
 
-const { siteBelovedFAQPage } = config; // ADDED
-
-const belovedFAQLink = siteBelovedFAQPage ? ( // <--- ADDED ENTIRE BLOCK
-    <ExternalLink 
-			key="linkToBelovedFAQ" 
-			href={siteBelovedFAQPage} 
-			className={css.legalLink} // <--- NEED TO UPDATE
-		>
-      <span className={css.terms}>
-      <FormattedMessage id="Footer.termsOfUse" /> 
-      </span>
-    </ExternalLink>
-  ) : null;
-
 const renderSocialMediaLinks = intl => {
   const { siteFacebookPage, siteInstagramPage, siteTwitterHandle } = config;
   const siteTwitterPage = twitterPageURL(siteTwitterHandle);
@@ -260,7 +246,6 @@ const Footer = props => {
               <NamedLink name="TermsOfServicePage" className={css.terms}>
                 <FormattedMessage id="Footer.terms" />
               </NamedLink>
-              {belovedFAQLink}
             </div>
           </div>
         </div>

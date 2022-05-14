@@ -106,7 +106,6 @@ const siteFacebookPage = null;
 
 // MyDomain landing page is used to present the value proposition of becoming a host
 const siteBelovedPage = 'https://www.joinbeloved.com/';
-const siteBelovedFAQPage = 'https://www.joinbeloved.com/faq';
 
 // Social logins & SSO
 
@@ -230,7 +229,6 @@ const config = {
   siteInstagramPage,
   siteTwitterHandle,
   siteBelovedPage,
-  siteBelovedFAQPage,
   facebookAppId,
   sentryDsn,
   usingSSL,
