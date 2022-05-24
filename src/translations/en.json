@@ -1035,7 +1035,7 @@
   "TransactionPanel.orderPaymentPendingTitle": "You have not confirmed payment yet",
   "TransactionPanel.orderPreauthorizedInfo": "{providerName} has been notified about the booking request. Sit back and relax.",
   "TransactionPanel.orderPreauthorizedSubtitle": "You have requested to book {listingLink}.",
-  "TransactionPanel.orderPreauthorizedTitle": "Great success, {customerName}!",
+  "TransactionPanel.orderPreauthorizedTitle": "You did it, {customerName}! 🙌",
   "TransactionPanel.paymentMethodsPageLink": "payment methods page",
   "TransactionPanel.perDay": "per half day",
   "TransactionPanel.perNight": "per night",
