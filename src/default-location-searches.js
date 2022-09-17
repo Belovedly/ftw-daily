@@ -9,6 +9,13 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 const defaultLocations = [
   {
+    id: 'default-ballard',
+    predictionPlace: {
+      address: 'Ballard, Seattle',
+      bounds: new LatLngBounds(new LatLng(47.69895644, -122.36122854), new LatLng(47.65138589, -122.412164)),
+    },
+  },
+  {
     id: 'default-capitol-hill',
     predictionPlace: {
       address: 'Capitol Hill, Seattle',
@@ -20,13 +27,6 @@ const defaultLocations = [
     predictionPlace: {
       address: 'Central District, Seattle',
       bounds: new LatLngBounds(new LatLng(47.63358332, -122.27573765), new LatLng(47.57597304, -122.33733996)),
-    },
-  },
-  {
-    id: 'default-ballard',
-    predictionPlace: {
-      address: 'Ballard, Seattle',
-      bounds: new LatLngBounds(new LatLng(47.69895644, -122.36122854), new LatLng(47.65138589, -122.412164)),
     },
   },
   {

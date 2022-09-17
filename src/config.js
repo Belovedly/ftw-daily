@@ -24,7 +24,7 @@ const i18n = {
 // Without the 'origin' parameter, search will not work correctly
 // NOTE: Keyword search and ordering search results by distance can't be used at the same time. You can turn keyword
 // search off by removing keyword filter config from filters array in marketplace-custom-config.js
-const sortSearchByDistance = false;
+const sortSearchByDistance = true;
 
 // API supports custom processes to be used in booking process.
 // We need to specify it when we are initiating a new order
@@ -96,13 +96,16 @@ const canonicalRootURL = process.env.REACT_APP_CANONICAL_ROOT_URL;
 const siteTitle = 'Beloved';
 
 // Twitter handle is needed in meta tags (twitter:site). Start it with '@' character
-const siteTwitterHandle = '@beloved';
+const siteTwitterHandle = '@joinbeloved';
 
 // Instagram page is used in SEO schema (http://schema.org/Organization)
-const siteInstagramPage = null;
+const siteInstagramPage = 'https://www.instagram.com/joinbeloved/';
 
 // Facebook page is used in SEO schema (http://schema.org/Organization)
-const siteFacebookPage = 'https://www.facebook.com/Beloved/';
+const siteFacebookPage = null;
+
+// MyDomain landing page is used to present the value proposition of becoming a host
+const siteBelovedPage = 'https://www.joinbeloved.com/';
 
 // Social logins & SSO
 
@@ -139,7 +142,7 @@ const maps = {
     // Limit location autocomplete to a one or more countries
     // using ISO 3166 alpha 2 country codes separated by commas.
     // If you want to limit the autocomplete, uncomment this value:
-    // countryLimit: ['AU'],
+      countryLimit: ['US'],
   },
 
   // When fuzzy locations are enabled, coordinates on maps are
@@ -149,7 +152,7 @@ const maps = {
   // coordinates are still accessible in the HTTP requests and the
   // Redux store.
   fuzzy: {
-    enabled: false,
+    enabled: true,
 
     // Amount of maximum offset in meters that is applied to obfuscate
     // the original coordinates. The actual value is random, but the
@@ -162,14 +165,14 @@ const maps = {
     defaultZoomLevel: 13,
 
     // Color of the circle on the Map component.
-    circleColor: '#c0392b',
+    circleColor: '#ff6852',
   },
 
   // Custom marker image to use in the Map component.
   //
   // NOTE: Not used if fuzzy locations are enabled.
   customMarker: {
-    enabled: false,
+    enabled: true,
 
     // Publicly accessible URL for the custom marker image.
     //
@@ -225,6 +228,7 @@ const config = {
   siteFacebookPage,
   siteInstagramPage,
   siteTwitterHandle,
+  siteBelovedPage,
   facebookAppId,
   sentryDsn,
   usingSSL,

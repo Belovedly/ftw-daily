@@ -24,9 +24,9 @@
   /* Used with inline CSS SVGs */
   --marketplaceColorEncoded: %23c0392b;
 
-  --successColor: #a6c3a8;
-  --successColorDark: #a6c3a8;
-  --successColorLight: #f0fff6;
+  --successColor: #bdd3bE;
+  --successColorDark: #bdd3bE;
+  --successColorLight: #bdd3bE;
   --failColor: #ff0000;
   --failColorLight: #fff0f0;
   --attentionColor: #ffaa00;

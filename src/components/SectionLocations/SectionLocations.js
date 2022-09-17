@@ -8,9 +8,9 @@ import { NamedLink } from '../../components';
 
 import css from './SectionLocations.module.css';
 
-import helsinkiImage from './images/location_helsinki.jpg';
-import rovaniemiImage from './images/location_rovaniemi.jpg';
-import rukaImage from './images/location_ruka.jpg';
+import ballardImage from './images/location_ballard_play.jpg';
+import capitolHillImage from './images/location_capitol_hill_montessori.jpg';
+import columbiaCityImage from './images/location_columbia_city_stem.jpg';
 
 class LocationImage extends Component {
   render() {
@@ -51,19 +51,19 @@ const SectionLocations = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'Helsinki',
-          helsinkiImage,
-          '?address=Helsinki%2C%20Finland&bounds=60.2978389%2C25.254484899999966%2C59.9224887%2C24.782875800000056&origin=60.16985569999999%2C24.93837910000002'
+          'Ballard',
+          ballardImage, // TODO: play-based image
+          '?address=Ballard%2C%20Seattle&bounds=47.69895644%2C-122.36122854%2C47.65138589%2C-122.412164'
         )}
         {locationLink(
-          'Rovaniemi',
-          rovaniemiImage,
-          '?address=Rovaniemi%2C%20Finland&bounds=67.18452510000002%2C27.32667850000007%2C66.1553745%2C24.736871199999996&origin=66.50394779999999%2C25.729390599999988'
+          'Capitol Hill',
+          capitolHillImage, // TODO: Montessori-inspired image
+          '?address=Capitol%20Hill%2C%20Seattle&bounds=47.66329703%2C-122.27345772%2C47.59227174%2C-122.34943804'
         )}
         {locationLink(
-          'Ruka',
-          rukaImage,
-          '?address=Ruka%2C%20Finland&bounds=66.1704578%2C29.14246849999995%2C66.1614402%2C29.110453699999994&origin=66.16594940000002%2C29.12646110000003'
+          'Columbia City',
+          columbiaCityImage, // TODO: STEM-focused image
+          '?address=Columbia%20City%2C%20Seattle&bounds=47.59091453%2C-122.25575513%2C47.53102513%2C-122.32195037'
         )}
       </div>
     </div>

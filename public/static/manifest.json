@@ -1,9 +1,9 @@
 {
-  "name": "Saunatime",
-  "short_name": "Saunatime",
+  "name": "Beloved",
+  "short_name": "Beloved",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#C0392B",
+  "theme_color": "#FFFFFF",
   "background_color": "#FFFFFF",
   "icons": [
     {
