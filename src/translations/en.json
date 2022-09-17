@@ -62,7 +62,7 @@
   "BookingBreakdown.providerTotalDefault": "You'll make",
   "BookingBreakdown.providerTotalDelivered": "You made",
   "BookingBreakdown.quantity": "{quantity, number} {quantity, plural, one {person} other {persons}}",
-  "BookingBreakdown.quantityUnit": "Number of persons",
+  "BookingBreakdown.quantityUnit": "Number of children",
   "BookingBreakdown.refund": "Refund",
   "BookingBreakdown.refundCustomerFee": "Refund Beloved fee",
   "BookingBreakdown.refundProviderFee": "Refund Beloved fee",
