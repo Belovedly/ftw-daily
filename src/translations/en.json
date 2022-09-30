@@ -51,7 +51,7 @@
   "BookingBreakdown.bookingEnd": "Booking end",
   "BookingBreakdown.bookingStart": "Booking start",
   "BookingBreakdown.commission": "Beloved fee *",
-  "BookingBreakdown.commissionFeeNote": "* The fee helps us run and improve the platform so we can provide you with the best service possible!",
+  "BookingBreakdown.commissionFeeNote": "* The fee helps us operate and improve the platform so you can get the best experience!",
   "BookingBreakdown.dayCount": "{count, number} {count, plural, one {day} other {days}}",
   "BookingBreakdown.nightCount": "{count, number} {count, plural, one {night} other {nights}}",
   "BookingBreakdown.pricePerDay": "Price per half day",
