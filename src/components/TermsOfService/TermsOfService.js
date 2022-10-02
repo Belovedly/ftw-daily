@@ -122,18 +122,44 @@ const TermsOfService = props => {
         You agree not to use the Website or Services for any unlawful purpose or any purpose prohibited 
         under this clause. You agree not to use the Website or Services in any way that could damage the 
         Website, Services, or general business of the Company.
+      </p>
 
+      <p>
         a) You further agree not to use the Website or Services:
-          I) To harass, abuse, or threaten others or otherwise violate any person's legal rights;
-          II) To violate any intellectual property rights of the Company or any third party;
-          III) To upload or otherwise disseminate any computer viruses or other software that may damage 
-          the property of another;
-          IV) To perpetrate any fraud;
-          V) To engage in or create any unlawful gambling, sweepstakes, or pyramid scheme;
-          VI) To publish or distribute any obscene or defamatory material;
-          VII) To publish or distribute any material that incites violence, hate, or discrimination 
-          towards any group;
-          VIII) To unlawfully gather information about others.
+      </p>
+
+      <p>
+        I) To harass, abuse, or threaten others or otherwise violate any person's legal rights;
+      </p>
+      
+      <p>
+        II) To violate any intellectual property rights of the Company or any third party;
+      </p>
+      
+      <p>
+        III) To upload or otherwise disseminate any computer viruses or other software that may damage 
+        the property of another;
+      </p>
+      
+      <p>
+        IV) To perpetrate any fraud;
+      </p>
+      
+      <p>
+        V) To engage in or create any unlawful gambling, sweepstakes, or pyramid scheme;
+      </p>
+      
+      <p>
+        VI) To publish or distribute any obscene or defamatory material;
+      </p>
+      
+      <p>
+        VII) To publish or distribute any material that incites violence, hate, or discrimination 
+        towards any group;
+      </p>
+      
+      <p>
+        VIII) To unlawfully gather information about others.
       </p>
 
       <h2>8. Affiliate Marketing & Advertising</h2>
