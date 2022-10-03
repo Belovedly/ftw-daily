@@ -249,7 +249,7 @@ export const formatDateStringToUTC = dateString => {
 export const getExclusiveEndDate = dateString => {
   return moment
     .utc(dateString)
-    .add(1, 'days')
+    .add(0, 'days')
     .startOf('day')
     .toDate();
 };
