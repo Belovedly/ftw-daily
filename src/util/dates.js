@@ -52,7 +52,7 @@ export const dateFromAPIToLocalNoon = date => {
   const momentInLocalTimezone = moment(date).subtract(timezoneDiffInMinutes, 'minutes');
   // To be on the safe zone with leap seconds and stuff when using day / night picker
   // we'll add 12 h to get to the noon of day in local timezone.
-  return momentInLocalTimezone.add(0, 'hours').toDate();
+  return momentInLocalTimezone.add(21, 'hours').toDate();
 };
 
 /**
@@ -249,7 +249,7 @@ export const formatDateStringToUTC = dateString => {
 export const getExclusiveEndDate = dateString => {
   return moment
     .utc(dateString)
-    .add(0, 'days')
+    .add(1, 'days')
     .startOf('day')
     .toDate();
 };
