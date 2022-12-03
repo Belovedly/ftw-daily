@@ -88,6 +88,7 @@ export const filters = [
         { key: 'morning', label: 'Morning' },
         { key: 'afternoon', label: 'Afternoon' },
         { key: 'evening', label: 'Evening' },
+        { key: 'full_day', label: 'Full Day'},
       ],
     },
   },
