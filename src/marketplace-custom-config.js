@@ -94,7 +94,7 @@ export const filters = [
   },
   {
     id: 'amenities',
-    label: 'Amenities',
+    label: 'Services',
     type: 'SelectMultipleFilter',
     group: 'secondary',
     queryParamNames: ['pub_amenities'],
@@ -109,36 +109,36 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         {
-          key: 'breakfast',
-          label: 'Breakfast',
+          key: 'infant_care',
+          label: 'Infant care',
         },
         {
-          key: 'lunch',
-          label: 'Lunch',
+          key: 'toddler_care',
+          label: 'Toddler care',
         },
         {
-          key: 'dinner',
-          label: 'Dinner',
+          key: 'preschool',
+          label: 'Preschool',
         },
         {
-          key: 'snacks',
-          label: 'Snacks',
+          key: 'homework_help',
+          label: 'Homework help',
         },
         {
-          key: 'playroom',
-          label: 'Playroom',
+          key: 'nanny_share',
+          label: 'Nanny share',
         },
         {
-          key: 'backyard',
-          label: 'Backyard',
+          key: 'live-out_nanny',
+          label: 'Live-out nanny',
         },
         {
-          key: 'nearby_playground',
-          label: 'Nearby playground',
+          key: 'household_assistant',
+          label: 'Household assistant',
         },
         {
-          key: 'pet_at_home',
-          label: 'Pet at home',
+          key: 'on-demand_care',
+          label: 'On-demand care',
         },
       ],
     },
