@@ -158,11 +158,11 @@ const maps = {
     // the original coordinates. The actual value is random, but the
     // obfuscated coordinates are withing a circle that has the same
     // radius as the offset.
-    offset: 500,
+    offset: 8000,
 
     // Default zoom level when showing a single circle on a Map. Should
     // be small enough so the whole circle fits in.
-    defaultZoomLevel: 13,
+    defaultZoomLevel: 9,
 
     // Color of the circle on the Map component.
     circleColor: '#ff6852',
