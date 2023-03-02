@@ -125,12 +125,12 @@ export const filters = [
           label: 'Homework help',
         },
         {
-          key: 'nanny_share',
-          label: 'Nanny share',
+          key: 'group_care',
+          label: 'Group care (nanny share)',
         },
         {
-          key: 'live-out_nanny',
-          label: 'Live-out nanny',
+          key: 'live-out_caregiver',
+          label: 'Live-out caregiver',
         },
         {
           key: 'household_assistant',
